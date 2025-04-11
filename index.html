@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Replace 'your-photo.jpg' with the path to your image -->
+            <img src="pic.jpg" alt="Your Photo" class="header-photo">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="content">
+            <h1>Mobilei Website</h1>
+            <p>I’m a passionate and experienced web developer with a deep interest in crafting dynamic, responsive, and user-friendly web experiences. Over the years, I've honed my skills in various web technologies, including HTML, CSS, JavaScript, Python, and MySQL, which has allowed me to build a diverse portfolio of projects.</p>
+        </section>
+
+        <section class="content">
+            <h2>Our Services</h2>
+            <p>I offer a wide range of web development services designed to meet the unique needs of businesses and individuals. My expertise spans both front-end and back-end technologies, and I am dedicated to creating high-performance, user-friendly websites and applications.</p>
+        </section>
+
+        <section class="content">
+            <h3>Get in touch with us</h3>
+            <form action="/submit" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Your Message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mobilei Amdany</p>
+    </footer>
+</body>
+</html>
